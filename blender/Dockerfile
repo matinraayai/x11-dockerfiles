@@ -1,0 +1,10 @@
+FROM nvidia/opengl:1.0-glvnd-runtime-ubuntu18.04
+ARG BLENDER_VERSION=2.82
+ARG RELEASE_CYCLE=a
+RUN apt-get update && apt-get -y install wget xz-utils libxi6 breeze \
+	libxrender1 ca-certificates --no-install-recommends && \
+	apt-get clean && rm -rf /var/lib/apt/lists/* 
+RUN wget https://mirror.clarkson.edu/blender/release/Blender$BLENDER_VERSION/blender-$BLENDER_VERSION$RELEASE_CYCLE-linux64.tar.xz
+RUN tar xvf "blender-$BLENDER_VERSION$RELEASE_CYCLE-linux64.tar.xz" && \
+	rm "blender-$BLENDER_VERSION$RELEASE_CYCLE-linux64.tar.xz"
+CMD ["/blender-2.82a-linux64/blender"]
