@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=x11docker --name="firefox" --gpu --clipboard --webcam --pulseaudio --home -- --gpus all  --  firefox &
+GenericName[en_US]=
+GenericName=
+Icon=firefox
+MimeType=
+Name[en_US]=Firefox Web Browser
+Name=Firefox Web Browser
+NoDisplay=false
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
