@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=x11docker --gpu --home="" --clipboard --pulseaudio --webcam -- --privileged --gpus all -v "$HOME"/Downloads:"$HOME"/Downloads --  chromium &
+GenericName[en_US]=
+GenericName=
+Icon=google-chrome
+MimeType=
+Name[en_US]=Scratch Google Chrome
+Name=Scratch Google Chrome
+NoDisplay=false
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
