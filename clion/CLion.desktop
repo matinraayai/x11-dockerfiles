@@ -1,13 +1,13 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=x11docker --name="calibre" --gpu --clipboard --home -- --gpus all -- calibre &
+Exec=x11docker --gpu --name='clion' --clipboard --pulseaudio --home="" -- --gpus all --  clion &
 GenericName[en_US]=
 GenericName=
-Icon=calibre
+Icon=clion
 MimeType=
-Name[en_US]=Calibre Library
-Name=Calibre Library
+Name[en_US]=CLion
+Name=CLion
 NoDisplay=false
 Path=
 StartupNotify=false
