@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=x11docker --name="calibre" --gpu --clipboard --home -- --gpus all -v "$HOME"/Downloads:"$HOME"/Downloads -- calibre &
+GenericName[en_US]=
+GenericName=
+Icon=calibre
+MimeType=
+Name[en_US]=Calibre Library
+Name=Calibre Library
+NoDisplay=false
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
