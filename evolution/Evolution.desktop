@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=x11docker --gpu --clipboard --pulseaudio --home="" --dbus --name="evolution" -- --privileged  -v /run/dbus/system_bus_socket:/run/dbus/system_bus_socket  --gpus all  --  evolution
+GenericName[en_US]=
+GenericName=
+Icon=evolution-mail
+MimeType=
+Name[en_US]=Evolution
+Name=Evolution
+NoDisplay=false
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
