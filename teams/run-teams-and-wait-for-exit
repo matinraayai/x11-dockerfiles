@@ -1,0 +1,4 @@
+#!/bin/bash
+teams
+sleep 10
+while ps -C teams >/dev/null;do sleep 10;done
