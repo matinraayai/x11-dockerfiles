@@ -1,0 +1,13 @@
+FROM nvidia/opengl:1.0-glvnd-runtime-ubuntu18.04
+LABEL maintainer "Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
+
+ARG SLACK_VERSION=4.4.2
+ARG DEBIAN_FRONTEND=noninteractive
+RUN apt-get update &&  apt-get install -y wget \
+    firefox gconf2 gconf-service \
+    libgtk2.0-0 libnotify4 libxtst6 libnss3 python gvfs-bin xdg-utils breeze \
+    libxss1 libappindicator1 libcurl4 libsecret-1-0 pulseaudio libxkbfile1 \
+    libappindicator3-1 ca-certificates --no-install-recommends && apt-get clean && rm -rf /var/lib/apt/lists/*
+RUN wget "https://downloads.slack-edge.com/linux_releases/slack-desktop-$SLACK_VERSION-amd64.deb" && \
+    dpkg -i "slack-desktop-$SLACK_VERSION-amd64.deb" && rm "slack-desktop-$SLACK_VERSION-amd64.deb"
+CMD ["slack"]
