@@ -1,4 +1,6 @@
 FROM nvidia/opengl:1.0-glvnd-runtime-ubuntu18.04
+LABEL maintainer "Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
+
 # Calibre Installation
 RUN apt-get update && apt-get install -y wget sudo python \
     python-pyqt5 xdg-utils xz-utils locales ca-certificates \

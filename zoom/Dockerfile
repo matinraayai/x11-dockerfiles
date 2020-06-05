@@ -1,4 +1,6 @@
 FROM nvidia/opengl:1.0-glvnd-runtime-ubuntu18.04 
+LABEL maintainer "Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
+
 # Install Dependencies
 RUN apt-get update && apt-get install -y wget libglib2.0-0 libxcb-shape0 libxcb-shm0 \
 	libxcb-randr0 libxcb-image0 libfontconfig1 libgl1-mesa-glx libegl1-mesa \

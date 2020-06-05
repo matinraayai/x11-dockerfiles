@@ -1,4 +1,6 @@
 FROM nvidia/opengl:1.0-glvnd-runtime-ubuntu18.04
+LABEL maintainer "Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
+
 ARG BLENDER_VERSION=2.82
 ARG RELEASE_CYCLE=a
 RUN apt-get update && apt-get -y install wget xz-utils libxi6 breeze \
