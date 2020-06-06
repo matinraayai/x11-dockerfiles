@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Joplin
+Comment=Joplin for Desktop
+Exec=x11docker --gpu --name="joplin" --clipboard --pulseaudio  --home="" -- --privileged  --  joplin
+Icon=joplin
+StartupWMClass=Joplin
+Type=Application
+Categories=Office;
+#1.0.179.940
