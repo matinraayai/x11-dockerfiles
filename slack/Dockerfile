@@ -10,4 +10,5 @@ RUN apt-get update &&  apt-get install -y wget \
     libappindicator3-1 ca-certificates --no-install-recommends && apt-get clean && rm -rf /var/lib/apt/lists/*
 RUN wget "https://downloads.slack-edge.com/linux_releases/slack-desktop-$SLACK_VERSION-amd64.deb" && \
     dpkg -i "slack-desktop-$SLACK_VERSION-amd64.deb" && rm "slack-desktop-$SLACK_VERSION-amd64.deb"
-CMD ["slack"]
+COPY run-slack-and-wait-for-exit /usr/local/bin
+CMD ["run-slack-and-wait-for-exit"]

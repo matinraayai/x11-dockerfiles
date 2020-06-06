@@ -1,0 +1,4 @@
+#!/bin/bash
+slack
+sleep 10
+while ps -C slack >/dev/null;do sleep 10;done

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=x11docker --gpu --name="slack" --clipboard --pulseaudio --home -- --privileged --  slack bash &
+Exec=x11docker --gpu --name="slack" --clipboard --pulseaudio --home -- --privileged --  slack &
 GenericName[en_US]=
 GenericName=
 Icon=slack
