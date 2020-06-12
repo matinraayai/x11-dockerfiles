@@ -52,7 +52,7 @@ Comment[wa]=Modelaedje 3D, animåcion, rindou eyet après-produccion
 Comment[zh_CN]=3D 建模、动画、渲染和后期制作
 Comment[zh_HK]=3D 模型、動畫、算圖和後製
 Comment[zh_TW]=3D 模型、動畫、算圖和後製
-Exec=x11docker --gpu --clipboard --pulseaudio --home="" -- --gpus all --  blender
+Exec=x11docker --gpu --clipboard --pulseaudio --home="" -- --gpus all --  matinraayai/blender
 GenericName[en_US]=3D modeler
 GenericName=3D modeler
 GenericName[ar]=3D المنمذج ثلاثي الأبعاد
