@@ -1,4 +1,4 @@
-FROM nvidia/cuda:10.2-cudnn7-devel
+FROM nvidia/cuda:10.2-devel
 LABEL maintainer "Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
 # CLion Installation
 ARG CLION_VERSION=2020.1.2
