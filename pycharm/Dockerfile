@@ -7,6 +7,6 @@ RUN apt-get update && apt-get install -y wget ca-certificates libxrender1 libxts
     --no-install-recommends && \
     apt-get clean && rm -rf /var/lib/apt/lists/* 
 RUN wget https://download-cf.jetbrains.com/python/pycharm-professional-$VERSION.tar.gz && \
-    tar xfa pycharm-professional-$VERSION.tar.gz && rm pycharm-professional-$VERSION.tar.gz \
+    tar xfa pycharm-professional-$VERSION.tar.gz && rm pycharm-professional-$VERSION.tar.gz && \
     mv /pycharm-$VERSION /pycharm
 ENTRYPOINT ["/pycharm/bin/pycharm.sh"]
