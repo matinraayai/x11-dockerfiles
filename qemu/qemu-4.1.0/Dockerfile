@@ -27,5 +27,5 @@ RUN apt-get -y install git vim breeze kdocker \
 # Pre-built QEMU
 COPY qemu_4.1.0_amd64.deb /qemu_4.1.0-1_amd64.deb
 RUN dpkg -i --force-all qemu_4.1.0-1_amd64.deb && rm qemu_4.1.0-1_amd64.deb 
-COPY ./start.sh /start.sh 
+COPY start.sh /start.sh
 ENTRYPOINT ["/start.sh"]
