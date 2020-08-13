@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Name=Joplin
 Comment=Joplin for Desktop
-Exec=x11docker --gpu --name="joplin" --clipboard --pulseaudio  --home="" -- --privileged  --  joplin
+Exec=x11docker --gpu --name="joplin" --clipboard --pulseaudio  --home="" -- --privileged  --  matinraayai/joplin
 Icon=joplin
 StartupWMClass=Joplin
 Type=Application
