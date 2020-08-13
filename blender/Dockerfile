@@ -1,8 +1,8 @@
 FROM nvidia/opengl:1.0-glvnd-runtime-ubuntu18.04
-LABEL maintainer "Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
+LABEL maintainer="Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
 
 ARG BLENDER_VERSION=2.83
-ARG RELEASE_CYCLE=.0
+ARG RELEASE_CYCLE=.4
 RUN apt-get update && apt-get -y upgrade && \
     apt-get -y install wget xz-utils libxi6 breeze \
 	libxrender1 ca-certificates --no-install-recommends && \
