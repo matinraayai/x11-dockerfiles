@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=x11docker --gpu --clipboard --home --  --  matinraayai/picard &
+GenericName[en_US]=
+GenericName=
+Icon=picard-icon
+MimeType=
+Name[en_US]=MusicBrainz Picard
+Name=MusicBrainz Picard
+NoDisplay=false
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=\s--noclose
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
