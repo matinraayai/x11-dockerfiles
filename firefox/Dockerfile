@@ -1,5 +1,5 @@
-FROM nvidia/opengl:1.0-glvnd-runtime-ubuntu18.04
-LABEL maintainer "Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
+FROM ubuntu:latest
+LABEL maintainer="Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
 
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y firefox pulseaudio \
