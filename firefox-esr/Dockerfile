@@ -1,5 +1,6 @@
-FROM debian:latest
-LABEL maintainer "Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
+FROM debian:bullseye-slim
+LABEL maintainer="Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
+
 RUN apt-get update && apt-get install -y firefox-esr pulseaudio \
     breeze fonts-noto fonts-noto-cjk \
     --no-install-recommends \
