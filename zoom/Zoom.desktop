@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=x11docker --gpu --clipboard --pulseaudio --webcam -- --gpus all -- zoom &
+Exec=x11docker --gpu --clipboard --pulseaudio --webcam -- --gpus all -- matinraayai/zoom &
 GenericName[en_US]=
 GenericName=
 Icon=Zoom
