@@ -1,7 +1,7 @@
 FROM matinraayai/anaconda
-LABEL maintainer "Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
+LABEL maintainer="Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
 
-ARG VERSION=2020.1.2
+ARG VERSION=2020.2
 
 # Upgrade
 RUN apt-get update && apt-get -y upgrade
