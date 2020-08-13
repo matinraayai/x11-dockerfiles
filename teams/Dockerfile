@@ -1,8 +1,8 @@
 FROM nvidia/opengl:1.0-glvnd-runtime-ubuntu18.04
-LABEL maintainer "Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
+LABEL maintainer="Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
 
 ARG TEAMS_VERSION=1.3.00.958
-RUN apt-get update && apt-get install -y wget libasound2 libatk-bridge2.0-0 \
+RUN apt-get update && apt-get upgrade -y && apt-get install -y wget libasound2 libatk-bridge2.0-0 \
 	libatk1.0-0 libcairo2 libcups2 libexpat1 libgdk-pixbuf2.0-0 \
 	libglib2.0-0 libgtk-3-0 libnspr4 libnss3 libpango-1.0-0 \ 
 	libpangocairo-1.0-0 libsecret-1-0 libx11-6 libx11-xcb1 \
