@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=x11docker --name="firefox" --gpu --clipboard --webcam --pulseaudio --home -- --gpus all  --  firefox &
+Exec=x11docker --name="firefox" --gpu --clipboard --webcam --pulseaudio --home -- --gpus all  --  matinraayai/firefox-esr &
 GenericName[en_US]=
 GenericName=
 Icon=firefox
