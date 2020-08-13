@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM debian:bullseye-slim
 LABEL maintainer "Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
 
 RUN apt-get update && apt-get upgrade -y && apt-get install -y openconnect iptables \
