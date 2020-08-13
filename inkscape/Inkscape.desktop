@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=x11docker --gpu --clipboard --pulseaudio --home -- --gpus all  --  inkscape
+Exec=x11docker --gpu --clipboard --pulseaudio --home -- --gpus all  --  matinraayai/inkscape
 GenericName[en_US]=
 GenericName=
 Icon=inkscape
