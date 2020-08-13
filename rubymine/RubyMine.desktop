@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=x11docker --gpu --clipboard --sudouser --pulseaudio --name="rubymine" --home="" -- --gpus all  -v "$HOME"/Projects:"$HOME"/RubymineProjects --  rubymine
+Exec=x11docker --gpu --clipboard --sudouser --pulseaudio --name="rubymine" --home="" -- --gpus all  -v "$HOME"/Projects:"$HOME"/RubymineProjects --  matinraayai/rubymine
 GenericName[en_US]=
 GenericName=
 Icon=rubymine
