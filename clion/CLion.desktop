@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=x11docker --gpu --name='clion' --clipboard --pulseaudio --home="" -- --gpus all --  clion &
+Exec=x11docker --gpu --name='clion' --clipboard --pulseaudio --home="" -- --gpus all --  matinraayai/clion &
 GenericName[en_US]=
 GenericName=
 Icon=clion
