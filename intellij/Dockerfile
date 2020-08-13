@@ -1,7 +1,7 @@
 FROM nvidia/opengl:1.0-glvnd-runtime-ubuntu18.04
 LABEL maintainer "Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
 
-ARG IDEA_VERSION=2020.1.2
+ARG IDEA_VERSION=2020.2
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y wget libxrender1 libxtst6 ca-certificates \
     libxtst-dev libxext-dev libxrender-dev libfreetype6-dev \
