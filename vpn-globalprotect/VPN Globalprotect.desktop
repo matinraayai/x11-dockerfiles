@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=x11docker --gpu --clipboard --name='vpn-globalprotect' --sudouser --home="" -- --privileged --  vpn-globalprotect
+Exec=x11docker --gpu --clipboard --name='vpn-globalprotect' --sudouser --home="" -- --net=host --privileged --  matinraayai/vpn-globalprotect
 GenericName[en_US]=
 GenericName=
 Icon=network-vpn
