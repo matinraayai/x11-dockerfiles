@@ -1,7 +1,7 @@
 FROM nvidia/cuda:10.2-devel
-LABEL maintainer "Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
+LABEL maintainer="Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
 # CLion Installation
-ARG CLION_VERSION=2020.1.2
+ARG CLION_VERSION=2020.2
 RUN apt-get update && apt-get install -y wget libxrender1 libxtst6 \
     libxtst-dev libxext-dev libxrender-dev libfreetype6-dev \
     libfontconfig1 git cmake ca-certificates libgtk-3-0 libglib2.0-0 \
