@@ -1,9 +1,9 @@
 # Based on the Dockerfile provided by https://github.com/jessfraz/dockerfiles/
 FROM nvidia/opengl:1.0-glvnd-runtime-ubuntu18.04
-LABEL maintainer "Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
+LABEL maintainer="Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
 
 # Install Chromium
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get -y upgrade && apt-get install -y \
       chromium-browser \
       chromium-browser-l10n \
       fonts-liberation \
