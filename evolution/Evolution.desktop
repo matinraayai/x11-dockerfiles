@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=x11docker --gpu --clipboard --pulseaudio --home="" --dbus --name="evolution" -- --privileged  -v /run/dbus/system_bus_socket:/run/dbus/system_bus_socket  --gpus all  --  evolution
+Exec=x11docker --gpu --clipboard --pulseaudio --home="" --dbus --name="evolution" -- --privileged  -v /run/dbus/system_bus_socket:/run/dbus/system_bus_socket  --gpus all  --  matinraayai/evolution
 GenericName[en_US]=
 GenericName=
 Icon=evolution-mail

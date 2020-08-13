@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=x11docker --gpu --home="" --clipboard --pulseaudio --webcam -- --privileged --gpus all --  chromium &
+Exec=x11docker --gpu --home="" --clipboard --pulseaudio --webcam -- --privileged --gpus all --  matinraayai/chromium &
 GenericName[en_US]=
 GenericName=
 Icon=google-chrome
