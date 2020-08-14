@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=x11docker --gpu --clipboard --pulseaudio --home --name="thunderbird" --dbus --  -v /run/dbus/system_bus_socket:/run/dbus/system_bus_socket --  matinraayai/thunderbird &
+GenericName[en_US]=
+GenericName=
+Icon=thunderbird-3.0
+MimeType=
+Name[en_US]=Thunderbird
+Name=Thunderbird
+NoDisplay=false
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
