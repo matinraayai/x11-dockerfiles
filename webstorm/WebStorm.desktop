@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=x11docker --gpu --clipboard --sudouser --pulseaudio --name="webstorm" --home="" -- --gpus all  -v "$HOME"/Projects:"$HOME"/RubymineProjects --  matinraayai/webstorm
+Exec=x11docker --gpu --clipboard --sudouser --pulseaudio --name="webstorm" --home="" -- --gpus all  -v "$HOME"/Projects:"$HOME"/WebStormProjects --  matinraayai/webstorm
 GenericName[en_US]=
 GenericName=
 Icon=webstorm
