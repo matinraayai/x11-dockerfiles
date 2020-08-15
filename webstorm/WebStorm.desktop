@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=x11docker --gpu --clipboard --sudouser --pulseaudio --name="webstorm" --home="" -- --gpus all  -v "$HOME"/Projects:"$HOME"/RubymineProjects --  matinraayai/webstorm
+GenericName[en_US]=
+GenericName=
+Icon=webstorm
+MimeType=
+Name[en_US]=WebStorm
+Name=RubyMine
+NoDisplay=false
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
