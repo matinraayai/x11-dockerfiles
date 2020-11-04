@@ -1,11 +1,11 @@
-FROM nvidia/opengl:1.0-glvnd-runtime-ubuntu18.04
+FROM ubuntu:latest
 LABEL maintainer="Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
 
-ARG RUBYMINE_VERSION=2020.2
+ARG RUBYMINE_VERSION=2020.2.3
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get -y upgrade && apt-get install -y wget libxrender1 libxtst6 \
     libxtst-dev libxext-dev libxrender-dev libfreetype6-dev \
-    libfontconfig1 ruby nodejs git breeze ca-certificates \
+    libfontconfig1 ruby nodejs git ca-certificates \
     git libgtk-3-0 libglib2.0-0 libexpat1 libx11-6 libfontconfig1 \
     libgl1-mesa-glx libgl1-mesa-dri libgl1 \
     --no-install-recommends && apt-get clean && rm -rf /var/lib/apt/lists/*
