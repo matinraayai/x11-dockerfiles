@@ -1,12 +1,12 @@
 FROM matinraayai/anaconda
 LABEL maintainer="Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
 
-ARG VERSION=2020.2
+ARG VERSION=2020.2.3
 
 # Upgrade
 RUN apt-get update && apt-get -y upgrade
 # Install dependencies
-RUN apt-get install -y wget ca-certificates libxrender1 libxtst6 \
+RUN apt-get install -y wget ca-certificates libxrender1 libxtst6 libnss3 \
     --no-install-recommends
 # Download and extract
 RUN wget https://download-cf.jetbrains.com/python/pycharm-professional-$VERSION.tar.gz && \
@@ -14,7 +14,7 @@ RUN wget https://download-cf.jetbrains.com/python/pycharm-professional-$VERSION.
     mv /pycharm-$VERSION /pycharm
 # Icon and gtk-themes
 RUN apt-get install -y libgtk-3-0 libglib2.0-0 libexpat1 libx11-6 libfontconfig1 \
-	libgl1-mesa-glx libgl1-mesa-dri libgl1 breeze
+	libgl1-mesa-glx libgl1-mesa-dri libgl1
 # Cleanup
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 ENTRYPOINT ["/pycharm/bin/pycharm.sh"]
