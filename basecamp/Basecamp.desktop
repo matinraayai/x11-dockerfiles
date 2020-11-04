@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=x11docker --gpu --clipboard --home="" --pulseaudio -- --privileged -v "$HOME"/Downloads:"$HOME"/Downloads -- matinraayai/basecamp &
+GenericName[en_US]=
+GenericName=
+Icon=org.electronjs.Electron2.BaseApp
+MimeType=
+Name[en_US]=Basecamp
+Name=Basecamp
+NoDisplay=false
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
