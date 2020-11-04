@@ -4,6 +4,8 @@ LABEL maintainer="Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
 ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get -y upgrade && apt-get install -y \
+      chromium-browser \
+      chromium-browser-l10n \
       curl \
       ca-certificates \
       wget \
@@ -24,6 +26,13 @@ RUN apt-get update && apt-get -y upgrade && apt-get install -y \
       libgtk-3-0 \
       libgbm1 \
       pulseaudio \
+      libcanberra-gtk-module \
+      libexif-dev \
+      libgl1-mesa-dri \
+      libgl1-mesa-glx \
+      libpango1.0-0 \
+      ffmpeg \
+      ubuntu-restricted-extras \
       --no-install-recommends \
       && rm -rf /var/lib/apt/lists/*
 
