@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=x11docker --gpu --clipboard --home --  --  matinraayai/nextcloud &
+Exec=x11docker --gpu --clipboard --home -- --gpus all  --  matinraayai/nextcloud &
 GenericName[en_US]=
 GenericName=
 Icon=nextcloud
