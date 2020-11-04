@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=x11docker --gpu --home="" --sudouser --name="nvidia-nsight" --clipboard -- --privileged --gpus all --  nvidia-nsight &
+GenericName[en_US]=
+GenericName=
+Icon=nvidia
+MimeType=
+Name[en_US]=NVIDIA Nsight
+Name=NVIDIA Nsight
+NoDisplay=false
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
