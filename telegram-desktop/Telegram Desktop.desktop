@@ -1,0 +1,21 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=x11docker --gpu --clipboard --pulseaudio --home -- --gpus all --  telegram-desktop &
+GenericName[en_US]=
+GenericName=
+Icon=telegram
+MimeType=
+Name[en_US]=Telegram Desktop
+Name=Telegram Desktop
+NoDisplay=false
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
