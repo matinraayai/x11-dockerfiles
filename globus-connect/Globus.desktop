@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=x11docker --gpu --clipboard --home="" --name="globus-connect" -- -v "$HOME"/Downloads:"$HOME"/Downloads --  globus-connect
+GenericName[en_US]=
+GenericName=
+Icon=
+MimeType=
+Name[en_US]=Globus Connect Personal
+Name=Globus Connect Personal
+NoDisplay=false
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
