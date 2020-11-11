@@ -6,7 +6,7 @@ ARG VERSION=2020.2.3
 # Upgrade
 RUN apt-get update && apt-get -y upgrade
 # Install dependencies
-RUN apt-get install -y wget ca-certificates libxrender1 libxtst6 libnss3 \
+RUN apt-get install -y wget ca-certificates libxrender1 libxtst6 libnss3 libgbm1 libxss1 libasound2 \
     --no-install-recommends
 # Download and extract
 RUN wget https://download-cf.jetbrains.com/python/pycharm-professional-$VERSION.tar.gz && \
