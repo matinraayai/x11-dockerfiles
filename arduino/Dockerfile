@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 LABEL maintainer="Matin Raayai Ardakani raayaiardakani.m@northeastern.edu"
-ARG ARDUINO_VERSION=1.8.13
+ARG ARDUINO_VERSION=1.8.15
 
 ARG DEBIAN_FRONTEND=noninteractive
 # Pre-reqs Installation

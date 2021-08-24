@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=x11docker --name="calibre" --gpu --clipboard --home -- --gpus all -- calibre &
+Exec=x11docker --name="calibre" --gpu --clipboard --home -- --gpus all -- matinraayai/calibre &
 GenericName[en_US]=
 GenericName=
 Icon=calibre
