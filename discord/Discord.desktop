@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=x11docker --gpu --pulseaudio --home --clipboard -- --privileged -v $HOME/Downloads:$HOME/Downloads/ -- matinraayai/discord
+GenericName[en_US]=
+GenericName=
+Icon=com.discordapp.Discord
+MimeType=
+Name[en_US]=Discord
+Name=Discord
+NoDisplay=false
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
