@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=x11docker --gpu --home="" --clipboard --pulseaudio --webcam --dbus -- --privileged --gpus all --  matinraayai/microsoft-edge &
+GenericName[en_US]=
+GenericName=
+Icon=internet-web-browser
+MimeType=
+Name[en_US]=Microsoft Edge
+Name=Microsoft Edge
+NoDisplay=false
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
