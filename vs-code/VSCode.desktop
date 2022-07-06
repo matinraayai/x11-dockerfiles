@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=x11docker --gpu --name="vs-code" --clipboard --pulseaudio --home -- --privileged --  matinraayai/vs-code &
+GenericName[en_US]=
+GenericName=
+Icon=code
+MimeType=
+Name[en_US]=Visual Studio Code
+Name=Visual Studio Code
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=

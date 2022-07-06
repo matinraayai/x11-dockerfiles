@@ -1,0 +1,4 @@
+#!/bin/bash
+code
+sleep 3
+while ps -C code >/dev/null;do sleep 3;done
